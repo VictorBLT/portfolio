@@ -1,9 +1,8 @@
 import { useTranslation } from 'react-i18next';
 
-import Card from '../../components/card/Card.jsx';
+import { Card } from '../../components/card/Card.jsx';
 import Timeline from '../../components/timeline/Timeline.jsx';
 import Title from '../../components/title/Title.jsx';
-import MainLayout from '../../layouts/main/MainLayout.jsx';
 import About from './About.jsx';
 import Skills from './Skills.jsx';
 
@@ -14,7 +13,7 @@ export default function Main() {
     const projects = t('projects.items', { returnObjects: true });
 
     return (
-        <MainLayout>
+        <>
             <About />
             <section id="experiences">
                 <Title>{t('experiences.title.long')}</Title>
@@ -38,6 +37,6 @@ export default function Main() {
                         projects.map((project, index) => <Card key={index} project={project} />)}
                 </div>
             </section>
-        </MainLayout>
+        </>
     );
 }

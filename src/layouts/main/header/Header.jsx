@@ -1,6 +1,8 @@
 import './header.css';
 
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const NAV_LINKS = [
     { id: 'about', path: '#about', labelKey: 'about.title.short' },
@@ -11,7 +13,6 @@ const NAV_LINKS = [
 
 export default function Header() {
     const { t, i18n } = useTranslation();
-    const baseUrl = import.meta.env.BASE_URL;
 
     const handleLanguageChange = (e) => {
         i18n.changeLanguage(e.target.value);
@@ -21,7 +22,7 @@ export default function Header() {
         <header>
             <nav>
                 <h1>
-                    <a href={`${baseUrl}`}>{t('name')}</a>
+                    <Link to="/">{t('name')}</Link>
                 </h1>
                 <input type="checkbox" name="" />
                 <div className="burger-lines">
@@ -33,7 +34,7 @@ export default function Header() {
                 <ul>
                     {NAV_LINKS.map(({ id, path, labelKey }) => (
                         <li key={id}>
-                            <a href={`${baseUrl}${path}`}>{t(labelKey)}</a>
+                            <HashLink to={`/${path}`}>{t(labelKey)}</HashLink>
                         </li>
                     ))}
                 </ul>

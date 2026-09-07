@@ -2,7 +2,7 @@ header {
     height: 60px;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     background-color: var(--background);
     border-bottom: 1px solid var(--style-1);
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.05);
@@ -19,6 +19,10 @@ header nav {
     position: relative;
 }
 
+header nav h1 {
+    height: 100%;
+}
+
 header nav input[type='checkbox'],
 header nav .burger-lines {
     display: none;
@@ -29,21 +33,25 @@ header nav ul {
     height: 100%;
     list-style: none;
     padding: 0;
-    gap: 40px;
+    gap: 10px;
 }
 
 header a {
     width: 100%;
     height: 100%;
+    padding: 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: normal;
+    transition: all ease 125ms;
     color: var(--blue-1);
     text-decoration: none;
-    transition: all ease 125ms;
 }
 
-header a:hover {
+header a:hover,
+header a:focus {
+    text-decoration: none;
     color: var(--accent);
 }
 
