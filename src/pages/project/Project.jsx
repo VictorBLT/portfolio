@@ -3,6 +3,7 @@ import './project.css';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
 
+import open from '../../../public/icons/open.svg';
 import Chip from '../../components/chip/Chip.jsx';
 import Title from '../../components/title/Title.jsx';
 
@@ -33,6 +34,12 @@ export default function Project() {
                                 {project.url}
                             </a>
                         )}
+
+                        <div className="chips-container">
+                            {project.skills.map((skill, index) => (
+                                <Chip key={index} skill={skill} />
+                            ))}
+                        </div>
                     </div>
 
                     <div className="project-description">
@@ -55,11 +62,24 @@ export default function Project() {
                     </div>
                 </section>
                 <section>
-                    <div className="chips-container">
-                        {project.skills.map((skill, index) => (
-                            <Chip key={index} skill={skill} />
-                        ))}
-                    </div>
+                    <ul className="project-links">
+                        {project.links &&
+                            project.links.map((link, index) => (
+                                <li key={index}>
+                                    <a
+                                        href={link.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="button">
+                                        <span>
+                                            <img src={`${baseUrl}${link.icon}`} alt={''} />
+                                            {link.name}
+                                        </span>
+                                        <img src={open} alt={'test'} />
+                                    </a>
+                                </li>
+                            ))}
+                    </ul>
                 </section>
             </article>
         </>

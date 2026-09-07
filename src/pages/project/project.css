@@ -119,6 +119,27 @@
     aspect-ratio: 1/1;
 }
 
+.project-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-links a span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.project-links a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 24px;
+}
+
 @media (max-width: 800px) {
     .project-gallery {
         grid-template-columns: repeat(2, 1fr);
