@@ -7,52 +7,109 @@
     "items": [
         {
             "name": "Tee Time Heros",
-            "description": "Une expérience interactive ludique autour du golf crée lors du Hackathon Hyblab pour Ouest-France.",
+            "slug": "tee-time-heros",
+            "date": "",
+            "url": "https://apps.hyblab.fr/nantes2025/ouest-france/",
+            "description": {
+                "short": "Une expérience interactive ludique autour du golf crée lors du Hackathon Hyblab pour Ouest-France.",
+                "long": [
+                    "Une expérience interactive ludique autour du golf crée lors du Hackathon Hyblab pour Ouest-France."
+                ]
+            },
             "image": "images/teetimeheros.jpg",
+            "banner": "images/teetimeheros.jpg",
+            "gallery": ["images/teetimeheros.jpg"],
             "skills": [
                 { "name": "React", "icon": "icons/react.svg" },
                 { "name": "JavaScript", "icon": "icons/js.svg" },
                 { "name": "CSS", "icon": "icons/css.svg" }
+            ],
+            "links": [
+                {
+                    "name": "Le projet",
+                    "url": "https://apps.hyblab.fr/nantes2025/ouest-france/",
+                    "icon": "icons/website.svg"
+                }
             ]
         },
         {
             "name": "Bureau des Arts",
-            "description": "Web App de gestion de matériel et suivi des emprunts pour une association étudiante musicale.",
+            "slug": "bureau-des-arts",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Web App de gestion de matériel et suivi des emprunts pour une association étudiante musicale.",
+                "long": [
+                    "Web App de gestion de matériel et suivi des emprunts pour une association étudiante musicale."
+                ]
+            },
             "image": "images/bda.jpg",
+            "banner": "images/bda.jpg",
+            "gallery": ["images/bda.jpg"],
             "skills": [
                 { "name": "Node.js", "icon": "icons/node.svg" },
                 { "name": "React", "icon": "icons/react.svg" },
                 { "name": "Docker", "icon": "icons/docker.svg" }
-            ]
+            ],
+            "links": []
         },
         {
             "name": "AlphaForce",
-            "description": "Simulation de boutique en ligne d'équipements sportifs.",
+            "slug": "alphaforce",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Simulation de boutique en ligne d'équipements sportifs.",
+                "long": ["Simulation de boutique en ligne d'équipements sportifs."]
+            },
             "image": "images/alphaforce.jpg",
+            "banner": "images/alphaforce.jpg",
+            "gallery": ["images/alphaforce.jpg"],
             "skills": [
                 { "name": "CodeIgniter", "icon": "icons/codeigniter.svg" },
                 { "name": "PHP", "icon": "icons/php.svg" },
                 { "name": "MySQL", "icon": "icons/mysql.svg" }
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Le Jardin des Oiseaux",
-            "description": "Site vitrine responsive pour la présentation du catalogue d'une pépinière locale.",
+            "slug": "le-jardin-des-oiseaux",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Site vitrine responsive pour la présentation du catalogue d'une pépinière locale.",
+                "long": [
+                    "Site vitrine responsive pour la présentation du catalogue d'une pépinière locale."
+                ]
+            },
             "image": "images/ljdo.jpg",
+            "banner": "images/ljdo.jpg",
+            "gallery": ["images/ljdo.jpg"],
             "skills": [
                 { "name": "HTML", "icon": "icons/html.svg" },
                 { "name": "CSS", "icon": "icons/css.svg" },
                 { "name": "JavaScript", "icon": "icons/js.svg" }
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Motorsport",
-            "description": "Jeu de simulation automobile 3D avec un moteur physique avancé.",
+            "slug": "motorsport",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Jeu de simulation automobile 3D avec un moteur physique avancé.",
+                "long": ["Jeu de simulation automobile 3D avec un moteur physique avancé."]
+            },
             "image": "images/motorsport.jpg",
+            "banner": "images/motorsport.jpg",
+            "gallery": ["images/motorsport.jpg"],
             "skills": [
                 { "name": "Unity", "icon": "icons/unity.svg" },
                 { "name": "C#", "icon": "icons/csharp.svg" }
-            ]
+            ],
+            "links": []
         }
     ]
 }

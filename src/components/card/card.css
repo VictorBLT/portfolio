@@ -6,6 +6,7 @@
 
 .card {
     display: flex;
+    position: relative;
     max-width: 450px;
     flex-direction: column;
     background-color: var(--background) !important;
@@ -55,24 +56,55 @@
     padding: 10px 20px 20px 20px;
     justify-content: end;
     flex-direction: column;
-    gap: 12px;
-}
-
-.card > .card-content > .chips-container {
     gap: 6px;
 }
 
-.card > .card-content > .chips-container .chip {
+.card > .card-content .card-header {
+    line-height: initial;
+}
+
+.card > .card-content .card-header .card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card > .card-content .card-header .card-main-link {
+    font-style: inherit;
+    color: inherit;
+}
+.card > .card-content .card-header .card-main-link:hover,
+.card > .card-content .card-header .card-main-link:focus {
+    text-decoration: inherit;
+}
+.card > .card-content .card-header .card-main-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.card > .card-content .card-header .external-link {
+    line-height: initial;
+    position: relative;
+    z-index: 2;
+}
+
+.card > .card-content .chips-container {
+    gap: 6px;
+}
+
+.card > .card-content .chips-container .chip {
     padding: 2px 8px;
     gap: 6px;
 }
 
-.card > .card-content > .chips-container .chip img {
+.card > .card-content .chips-container .chip img {
     height: 16px;
     width: 16px;
 }
 
-.card > .card-content > .chips-container .chip p {
+.card > .card-content .chips-container .chip p {
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;

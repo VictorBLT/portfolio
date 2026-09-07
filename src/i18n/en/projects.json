@@ -7,52 +7,107 @@
     "items": [
         {
             "name": "Tee Time Heros",
-            "description": "An interactive experience about golf created during the Hyblab Hackathon for Ouest-France.",
+            "slug": "tee-time-heros",
+            "date": "",
+            "url": "https://apps.hyblab.fr/nantes2025/ouest-france/",
+            "description": {
+                "short": "An interactive experience about golf created during the Hyblab Hackathon for Ouest-France.",
+                "long": [
+                    "An interactive experience about golf created during the Hyblab Hackathon for Ouest-France."
+                ]
+            },
             "image": "images/teetimeheros.jpg",
+            "banner": "images/teetimeheros.jpg",
+            "gallery": ["images/teetimeheros.jpg"],
             "skills": [
                 { "name": "React", "icon": "icons/react.svg" },
                 { "name": "JavaScript", "icon": "icons/js.svg" },
                 { "name": "CSS", "icon": "icons/css.svg" }
+            ],
+            "links": [
+                {
+                    "name": "The app",
+                    "url": "https://apps.hyblab.fr/nantes2025/ouest-france/",
+                    "icon": "icons/website.svg"
+                }
             ]
         },
         {
             "name": "Bureau des Arts",
-            "description": "Web app designed to manage equipment inventory and track loans for a music students union.",
+            "slug": "bureau-des-arts",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Web app designed to manage equipment inventory and track loans for a music students union.",
+                "long": [
+                    "Web app designed to manage equipment inventory and track loans for a music students union."
+                ]
+            },
             "image": "images/bda.jpg",
+            "banner": "images/bda.jpg",
+            "gallery": ["images/bda.jpg"],
             "skills": [
                 { "name": "Node.js", "icon": "icons/node.svg" },
                 { "name": "React", "icon": "icons/react.svg" },
                 { "name": "Docker", "icon": "icons/docker.svg" }
-            ]
+            ],
+            "links": []
         },
         {
             "name": "AlphaForce",
-            "description": "Fake online shop selling sports equipment.",
+            "slug": "alphaforce",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Fake online shop selling sports equipment.",
+                "long": ["Fake online shop selling sports equipment."]
+            },
             "image": "images/alphaforce.jpg",
+            "banner": "images/alphaforce.jpg",
+            "gallery": ["images/alphaforce.jpg"],
             "skills": [
                 { "name": "CodeIgniter", "icon": "icons/codeigniter.svg" },
                 { "name": "PHP", "icon": "icons/php.svg" },
                 { "name": "MySQL", "icon": "icons/mysql.svg" }
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Le Jardin des Oiseaux",
-            "description": "Responsive showcase website for a local nursery's product catalog.",
+            "slug": "le-jardin-des-oiseaux",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "Responsive showcase website for a local nursery's product catalog.",
+                "long": ["Responsive showcase website for a local nursery's product catalog."]
+            },
             "image": "images/ljdo.jpg",
+            "banner": "images/ljdo.jpg",
+            "gallery": ["images/ljdo.jpg"],
             "skills": [
                 { "name": "HTML", "icon": "icons/html.svg" },
                 { "name": "CSS", "icon": "icons/css.svg" },
                 { "name": "JavaScript", "icon": "icons/js.svg" }
-            ]
+            ],
+            "links": []
         },
         {
             "name": "Motorsport",
-            "description": "3D car simulation game featuring an advanced physics engine.",
+            "slug": "motorsport",
+            "date": "",
+            "url": "",
+            "description": {
+                "short": "3D car simulation game featuring an advanced physics engine.",
+                "long": ["3D car simulation game featuring an advanced physics engine."]
+            },
             "image": "images/motorsport.jpg",
+            "banner": "images/motorsport.jpg",
+            "gallery": ["images/motorsport.jpg"],
             "skills": [
                 { "name": "Unity", "icon": "icons/unity.svg" },
                 { "name": "C#", "icon": "icons/csharp.svg" }
-            ]
+            ],
+            "links": []
         }
     ]
 }
