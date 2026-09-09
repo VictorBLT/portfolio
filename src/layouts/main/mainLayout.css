@@ -141,6 +141,13 @@ main section > div {
     margin: 0 auto;
 }
 
+@media (max-width: 800px) {
+    main section {
+        padding: 80px 30px;
+        gap: 40px;
+    }
+}
+
 @media print {
     section {
         page-break-after: always;
