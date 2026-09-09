@@ -18,13 +18,14 @@
                     "Technically, the project relies on several interconnected software components that handle the entire data lifecycle. The pipeline starts with collecting raw sensor data via an Arduino board, which is then sent to a message queue. This data is then processed in real-time for validation and to apply business rules. It is then used by AI models to control a mechanical arm, while players monitor live speed and energy metrics on a dashboard. Finally, a web interface serves as the game launcher."
                 ]
             },
-            "image": "images/datarider.jpg",
-            "banner": "images/datarider.jpg",
-            "gallery": ["images/datarider.jpg"],
+            "image": "images/datarider/main.jpg",
+            "banner": "images/datarider/main.jpg",
+            "gallery": ["images/datarider/main.jpg"],
             "skills": [
                 { "name": "Scala", "icon": "icons/scala.svg" },
                 { "name": "Spark", "icon": "icons/spark.svg" },
                 { "name": "Kafka", "icon": "icons/kafka.svg" },
+                { "name": "Databricks", "icon": "icons/databricks.svg" },
                 { "name": "Python", "icon": "icons/python.svg" },
                 { "name": "Arduino", "icon": "icons/arduino.svg" },
                 { "name": "Gitlab CI", "icon": "icons/gitlab.svg" },
@@ -52,9 +53,9 @@
                     "Our project won over the HybLab 2025 jury, earning us a special mention for \"Effectiveness of user interface and motion design\"."
                 ]
             },
-            "image": "images/teetimeheros.jpg",
-            "banner": "images/teetimeheros.jpg",
-            "gallery": ["images/teetimeheros.jpg"],
+            "image": "images/teetimeheros/main.jpg",
+            "banner": "images/teetimeheros/main.jpg",
+            "gallery": ["images/teetimeheros/main.jpg"],
             "skills": [
                 { "name": "React", "icon": "icons/react.svg" },
                 { "name": "JavaScript", "icon": "icons/js.svg" },
@@ -91,9 +92,9 @@
                     "For the association's executive board, a dedicated admin panel makes activity management a breeze. It allows them to oversee room bookings, approve borrowing requests, track inventory, and manage user accounts."
                 ]
             },
-            "image": "images/bda.jpg",
-            "banner": "images/bda.jpg",
-            "gallery": ["images/bda.jpg"],
+            "image": "images/bda/main.jpg",
+            "banner": "images/bda/main.jpg",
+            "gallery": ["images/bda/main.jpg"],
             "skills": [
                 { "name": "Node.js", "icon": "icons/node.svg" },
                 { "name": "React", "icon": "icons/react.svg" },
@@ -115,9 +116,9 @@
                     "On the back end, a dedicated admin interface provides a comprehensive dashboard. It allows staff to manage the entire catalog (adding products, updating sizes and stock), track orders, generate promo codes, send newsletters, and monitor server resources in real time."
                 ]
             },
-            "image": "images/alphaforce.jpg",
-            "banner": "images/alphaforce.jpg",
-            "gallery": ["images/alphaforce.jpg"],
+            "image": "images/alphaforce/main.jpg",
+            "banner": "images/alphaforce/main.jpg",
+            "gallery": ["images/alphaforce/main.jpg"],
             "skills": [
                 { "name": "CodeIgniter", "icon": "icons/codeigniter.svg" },
                 { "name": "PHP", "icon": "icons/php.svg" },
@@ -137,9 +138,9 @@
                     "To achieve this, the site features a complete item catalog, a photo gallery of the nursery's past landscaping projects, and a vertical timeline detailing the company's history. The website is fully responsive, ensuring a smooth user experience across all devices."
                 ]
             },
-            "image": "images/ljdo.jpg",
-            "banner": "images/ljdo.jpg",
-            "gallery": ["images/ljdo.jpg"],
+            "image": "images/ljdo/main.jpg",
+            "banner": "images/ljdo/main.jpg",
+            "gallery": ["images/ljdo/main.jpg"],
             "skills": [
                 { "name": "HTML", "icon": "icons/html.svg" },
                 { "name": "CSS", "icon": "icons/css.svg" },
