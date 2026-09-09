@@ -61,10 +61,10 @@ export default function Project() {
                         ))}
                     </div>
                 </section>
-                <section>
-                    <ul className="project-links">
-                        {project.links &&
-                            project.links.map((link, index) => (
+                {project.links && project.links.length > 0 && (
+                    <section>
+                        <ul className="project-links">
+                            {project.links.map((link, index) => (
                                 <li key={index}>
                                     <a
                                         href={link.url}
@@ -79,8 +79,9 @@ export default function Project() {
                                     </a>
                                 </li>
                             ))}
-                    </ul>
-                </section>
+                        </ul>
+                    </section>
+                )}
             </article>
         </>
     );

@@ -140,6 +140,11 @@
     gap: 24px;
 }
 
+.project-links a img{
+    width: 24px;
+    height: 24px;
+}
+
 @media (max-width: 800px) {
     .project-gallery {
         grid-template-columns: repeat(2, 1fr);
