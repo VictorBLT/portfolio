@@ -49,9 +49,9 @@ export default function Project() {
                     </div>
                 </section>
                 <section>
-                    <div className="project-gallery" data-count={project.gallery.length}>
+                    <div className="project-gallery">
                         {project.gallery.map((image, index) => (
-                            <div key={index} className="bento-item">
+                            <div key={index} className="project-gallery-item">
                                 <img
                                     src={`${baseUrl}${image}`}
                                     alt={t('alt.image', { name: project.name })}
